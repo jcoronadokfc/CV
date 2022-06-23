@@ -1,0 +1,214 @@
+    .inicio {
+        height: 500px;
+        width: 500px;
+        background: url(https://jupiterx.artbees.net/jove/wp-content/uploads/sites/19/2018/08/main-banner.jpg) no-repeat;
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .inicio_img {
+        width: 100%;
+        height: 100%;
+        padding: 5%;
+    }
+
+    input {
+        width: 130px;
+        height: 50px;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+        background: #333333;
+        color: #fff;
+        border: 3px solid;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+
+    input:hover {
+        background: #fff;
+        color: #333333;
+    }
+
+    .inicio_img h1 span {
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+        font-size: 60px;
+        color: #fff;
+        width: 630px;
+    }
+
+    .inicio_img p {
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+        color: #fff;
+        width: 630px;
+    
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h2 span {
+        color: #3800e0;
+        font-size: 44px;
+        font-weight: 200;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .texto {
+        text-align: center;
+        line-height: 1.5;
+        margin-top: 77px;
+        color: #7a7a7a;
+        font-size: 20px;
+    }
+
+    .banner-texto {
+        text-align: center;
+        margin-top: 77px;
+        color: #7a7a7a;
+    }
+
+    .banner-texto b {
+        color: #070000;
+    }
+
+    .banner {
+        background: #3800e0;
+    }
+
+    .framework-title,
+    .banner-title {
+        margin-top: 10%;
+    }
+
+    .banner-title span {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #12ecda;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    }
+
+    .banner-framework-description,
+    .banner-title-description {
+        margin-top: 3%;
+    }
+
+    .banner-framework-description span {
+        color: #12ecda;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+        margin-top: 20px;
+    }
+
+    .banner-title-description span {
+        color: #fff;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+        margin-top: 20px;
+    }
+
+    .title_developer span {
+        color: #12ecda;
+        font-size: 26px;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    }
+
+    .banner .row {
+        width: 50%;
+    }
+
+    .indices {
+        color: #fff;
+        font-size: 14px;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+        font-weight: bold;
+    }
+
+    .bloques {
+        margin-left: 20px;
+    }
+
+    .title_hability {
+        margin-bottom: 5%;
+    }
+
+    .framework-title span {
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #7a7a7a;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    }
+
+    .flotante {
+        margin-bottom: 10%;
+    }
+
+    .img_icons img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+
+
+    .estudios {
+        background-image: url(https://jupiterx.artbees.net/jove/wp-content/uploads/sites/19/2018/08/experince-2.jpg);
+        overflow: hidden;
+        background-color: rgba(0, 0, 140, 1);
+        background-blend-mode: soft-light;
+    }
+
+    .experiencia_institucion h5 span {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .experiencia_institucion {
+        color: #fff;
+        font-weight: bold;
+        padding: 5%;
+    }
+
+    .experiencia_institucion p {
+        font-size: 60px;
+        font-weight: 200;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    }
+
+    .estudio_terminados {
+        padding: 5%;
+    }
+
+    .estudio_terminados h2 span,
+    .estudio_terminados h2 {
+        text-align: left;
+        color: #fff;
+        font-size: 30px;
+        font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+    }
+
+    .estudio_terminados p {
+        color: #fff;
+    }
+
+    .flotante_bottom {
+        margin-bottom: 5%;
+    }
+
+    .carousel_grid {
+        margin: 0px auto;
+    }
+
+    .inicio_img h2 span {
+        color: #fff;
+    }
+    .card{
+        margin: 0px auto;
+    }
+    .card .card-body,
+    .card img{
+        width: 286px; 
+        height: 190px;
+    }
