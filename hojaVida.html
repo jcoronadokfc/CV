@@ -54,24 +54,27 @@
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 tabs">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#" name="Home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Perfil</a>
+                                <a class="nav-link" href="#" name="Perfil">Perfil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Habilidades</a>
+                                <a class="nav-link" href="#" name="Habilidades">Habilidades</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Frameworks</a>
+                                <a class="nav-link" href="#" name="Frameworks">Frameworks</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Estudios</a>
+                                <a class="nav-link" href="#" name="Estudios">Estudios</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Sobre Juan</a>
+                                <a class="nav-link" href="#" name="Sobre_Juan">Sobre Juan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" name="Contactame">Contactame</a>
                             </li>
                         </ul>
                     </div>
@@ -85,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="Perfil">
             <div class="col">
                 <img src="https://jupiterx.artbees.net/jove/wp-content/uploads/sites/19/2018/08/about-me.jpg">
             </div>
@@ -105,7 +108,7 @@
 
             </div>
         </div>
-        <div class="row banner">
+        <div class="row banner" id="Habilidades">
             <div class="col-md-12 title_hability">
                 <h2 class="banner-title"><span>ALGUNAS DE MIS</span></h2>
                 <h2 class="banner-title-description"><span>Habilidades profesionales</span></h2>
@@ -163,9 +166,9 @@
             </div>
 
         </div>
-        <div class="row">
+        <div class="row" id="Frameworks">
             <div class="col-md-12 title_hability">
-                <h2 class="framework-title"><span>FRAMEWORKS</span></h2>
+                <h2 class="framework-title" id="framework_ok"><span>FRAMEWORKS</span></h2>
                 <h2 class="banner-framework-description"><span>Utilizados</span></h2>
             </div>
             <div class="row">
@@ -184,7 +187,7 @@
 
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="Estudios">
             <div class="col-md-12 estudios">
                 <div class="row">
                     <div class="col-md-5 align-self-center experiencia_institucion">
@@ -223,7 +226,7 @@
                 <br>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="Sobre_Juan">
             <div class="col-md-12">
                 <h2 class="framework-title"><span>SOBRE</span></h2>
                 <h2 class="banner-framework-description"><span>Juan Carlos Coronado Bonilla</span></h2>
@@ -330,6 +333,32 @@
             </div>
 
         </div>
+        <div class="row" id="Contactame">
+            <div class="row flotante">
+
+            </div>
+            <div class="col-md-6">
+                <img src="https://jupiterx.artbees.net/jove/wp-content/uploads/sites/19/2018/08/contact-me.jpg">
+            </div>
+            <div class="col-md-6 contactame">
+                <h2 class="framework-title"><span>ESPERO TU MENSAJE</span></h2>
+                <h2 class="banner-framework-description" style="margin-bottom: 10%;"><span>Contáctame</span></h2>
+                <p>+57 3176594473 / 3114784485</p>
+                <p style="margin-bottom: 10%;">coronadobonillajuancarlos904@gmail.com</p>
+                <span>
+                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-059c289"
+                        target="_blank" href="https://www.facebook.com/juancarlos.coronadobonilla.718"><img src="img/facebook.png" style="width: 10%; margin-left: 5px;"></a>
+                </span>
+                <span>
+                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-059c289"
+                        target="_blank" href="https://www.linkedin.com/in/juan-carlos-corondo-bonilla-7828a6159/"><img src="img/linkedin.png" style="width: 10%; margin-left: 5px;"></a>
+                </span>
+                <span>
+                    <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-059c289"
+                        target="_blank" href="https://github.com/Juanbonilla10?tab=repositories"><img src="img/github.png" style="width: 10%; margin-left: 5px;"></a>
+                </span>
+            </div>
+        </div>
 
     </div>
 
@@ -347,7 +376,11 @@
         integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
         crossorigin="anonymous"></script>
 
-
+    <!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+    <!--Javascript hoja de vida-->
+    <script src="js/hojaVida.js"></script>
 
 </body>
 
