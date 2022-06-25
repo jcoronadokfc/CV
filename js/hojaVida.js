@@ -4,7 +4,6 @@ $(document).ready(function(){
         e.preventDefault();
         let idMenu = $(this).attr('name');
 
-        console.log(`#${idMenu}`);
         $("html, body").animate({ scrollTop: $(`#${idMenu}`).offset().top }, 1500);
     })
 
